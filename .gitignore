@@ -1,0 +1,3 @@
+target/
+credentials/
+src/main/resources/client_secret.json
