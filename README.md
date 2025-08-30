@@ -1,0 +1,3 @@
+YouTubeCommentAnalyzer
+配信コメントの収集及び感情分析プログラム
+
