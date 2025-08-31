@@ -1,6 +1,8 @@
 # YouTubeCommentAnalyzer-java portfolio
-#### どんなプログラム？
-youtubeのライブ配信コメントをリアルタイムで収集し、感情分析をするプログラム
+#### 概要
+youtubeのライブ配信コメントをリアルタイムで収集
+マイクロソフトのAzure AI LanguageのAPIを使用し収集したコメントの感情分析
+計測結果をcsvファイルで出力するプログラム
 
 
 
