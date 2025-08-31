@@ -1,5 +1,5 @@
 # YouTubeCommentAnalyzer-java portfolio
-###どんなプログラム？
+### どんなプログラム？
 youtubeのライブ配信コメントをリアルタイムで収集し、感情分析をするプログラム
 
 
