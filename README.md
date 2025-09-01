@@ -14,5 +14,14 @@ API利用時の認証:OAuth2.0認証（youtube api利用時）
 使用API:YouTube Data API v3, Microsoft Azure AI Language–Sentiment Analysis API  
 サーバー:AWS EC2 (OS:Ubuntu)  
 Git GitHub
-#### 大変だったこと：
+#### 大変だったこと
+まずメインのコメント収集プログラムを作る以前のOAtuth認証が何をすればいいのか分からず樹海に放り出される  
+コメント収集のプログラムはPythonでサンプルコードがたくさん転がっているから何とかなるだろうと思ってみたら  
+無限にメソッドが出てきて何がなんだかわからない、それらをほどきながらjavaに書き換えなければならなかった  
+無限にメソッドが出てくる理由がyoutube apiに色々仕様がたくさんあったからであり  
+youtube api使うためにわかりにくい公式ドキュメントを読まなければならなかった  
+またコードを書く上でjavaやGoogleが用意してるパッケージをimportとしなければならず何を使えばいいのか五里霧中の迷子  
+mavenってなに？依存関係？？からpom.xmlファイルを作成しなければならなかった  
+youtubeコメント収集を乗り越えた先に今度はazure api
+
 
