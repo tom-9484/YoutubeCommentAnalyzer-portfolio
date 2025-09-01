@@ -44,8 +44,11 @@ Git GitHub
    
 8.youtubeコメント収集を乗り越えた先に今度はazure apiの使用ということで構造把握地獄で一度心が折れた  
 
-9.Azure APIではライブラリを使わずにHTTPベースのREST API を直接叩いた  
+9.Azure APIではライブラリを使わずにHTTPベースのREST APIを直接叩いたため  
+　HttpRequestクラスで .uri .header .POST .build()といったメソッドを連打し、httpClientで.sendすることの理解が必要だった  
 
-10.収集したコメントの文字列を今度はライブラリを使わずjsonとしてHttpClientオブジェクト生成  
+10.HttpClientオブジェクト生成 
+
+10.収集したコメントの文字列を今度はライブラリを使わずjsonとして
 
 
