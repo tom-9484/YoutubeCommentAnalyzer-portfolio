@@ -33,7 +33,7 @@ Git GitHub
    といったことを理解しなければいけなかった
    
 8.youtubeコメント収集を乗り越えた先に今度はazure apiの使用ということで構造把握地獄で一度心が折れた  
-9.Azure APIではライブラリを使わずにHTTPベースのREST API を直接叩いた
+9.Azure APIではライブラリを使わずにHTTPベースのREST API を直接叩いた  
 10.収集したコメントの文字列を今度はライブラリを使わずjsonとしてHttpClientオブジェクト生成
 
 
