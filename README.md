@@ -19,26 +19,26 @@ Git GitHub
 
 2.コメント収集のプログラムはPythonでサンプルコードがたくさん転がっているから  
   何とかなるだろうと思ってみたら無限にメソッドが出てきて何がなんだかわからない  
-  それらをほどきながらjavaに書き換えなければならなかった  
+　それらをほどきながらjavaに書き換えなければならなかった  
   
 3.無限にメソッドが出てくる理由がyoutube apiに色々仕様がたくさんあったからであり  
 　youtube api使うためにわかりにくい公式ドキュメントを読まなければならなかった  
  
 4.コードを書く上でjavaやGoogleが用意してるパッケージをimportとしなければならず  
-  何を使えばいいのか五里霧中の迷子  
+　何を使えばいいのか五里霧中の迷子  
   
 5.mavenってなに？依存関係ってなに？？からpom.xmlファイルを作成しなければならなかった  
 
 6.filterやcollect、map、データの流れであるストリームに変換する.stream()など  
-  Javaに備えられたStream APIという機能を理解しなければならなかった  
+　Javaに備えられたStream APIという機能を理解しなければならなかった  
   
 7.Youtube APIを使う時にGoogle が公式で提供しているクライアントライブラリのGoogle API Client Library for Javaを使ったが  
-  この中に用意されているYoutubeクラスの構造を把握しなければならず  
-  「YouTubeクラス」の内部クラスである「LiveChatMessagesクラスのlist()メソッド」を呼び出すと、  
-   LiveChatMessageListResponseオブジェクトが返され、それはitems[] 配列と示され  
-   その0番目に格納されたLiveChatMessageオブジェクトが格納されており  
-   そのLiveChatMessageの中のsnippetオブジェクトの中に、プロパティ(コメント本文や投稿時刻などのメッセージ情報の文字列)が存在する  
-   といったことを理解しなければいけなかった  
+　この中に用意されているYoutubeクラスの構造を把握しなければならず  
+　「YouTubeクラス」の内部クラスである「LiveChatMessagesクラスのlist()メソッド」を呼び出すと、  
+　LiveChatMessageListResponseオブジェクトが返され、それはitems[] 配列と示され  
+　その0番目に格納されたLiveChatMessageオブジェクトが格納されており  
+　そのLiveChatMessageの中のsnippetオブジェクトの中に、プロパティ(コメント本文や投稿時刻などのメッセージ情報の文字列)が存在する  
+　といったことを理解しなければいけなかった  
    
 8.youtubeコメント収集を乗り越えた先に今度はazure apiの使用ということで構造把握地獄で一度心が折れた  
 
