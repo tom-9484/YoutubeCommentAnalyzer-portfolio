@@ -45,7 +45,8 @@ Git GitHub
 8.youtubeコメント収集を乗り越えた先に今度はazure apiの使用ということで構造把握地獄で一度心が折れた  
 
 9.Azure APIではライブラリを使わずにHTTPベースのREST APIを直接叩いたため  
-　HttpRequestクラスで .uri .header .POST .build()といったメソッドを連打し、httpClientで.sendすることの理解が必要だった  
+　HttpRequestクラスで .uri .header .POST .build()といったメソッドを連打し  
+　httpClientで.sendすることの理解が必要だった  
 
 10.HttpClientオブジェクト生成 
 
