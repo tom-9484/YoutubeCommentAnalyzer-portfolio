@@ -22,6 +22,8 @@ Git GitHub
 　youtube api使うためにわかりにくい公式ドキュメントを読まなければならなかった  
 4.コードを書く上でjavaやGoogleが用意してるパッケージをimportとしなければならず何を使えばいいのか五里霧中の迷子  
 5.mavenってなに？依存関係？？からpom.xmlファイルを作成しなければならなかった  
-6.youtubeコメント収集を乗り越えた先に今度はazure api
+6.filterやcollect、map、データの流れであるストリームに変換する.stream()など  
+  Javaに備えられたStream APIという機能を理解しなければならなかった
+6.youtubeコメント収集を乗り越えた先に今度はazure apiの使用で心が折れた  
 
 
