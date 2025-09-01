@@ -1,8 +1,9 @@
 # YouTubeCommentAnalyzer-java portfolio
 #### 概要
 youtubeのライブ配信コメントをリアルタイムで収集  
-マイクロソフトのAzure AI LanguageのAPIを使用し収集したコメントの感情分析  
-計測結果をcsvファイルで出力するプログラム  
+マイクロソフトのAzure AI LanguageのAPIを使用し収集したコメントを点数付けし  
+0.3点より大きければポジティブ-0.3点より小さければネガティブとし、感情分析  
+その計測結果をcsvファイルで出力するプログラム  
 virtual youtuberの長時間配信のコメントの様子を自動で収集し  
 配信の切り抜き動画編集の効率を大幅に上げるために制作  
 元々自分のために作ったものだが、vtuberだけでなく何かしら超長時間配信の切り抜き動画編集のために使用可能  
@@ -48,7 +49,7 @@ Git GitHub
 　HttpRequestクラスで .uri .header .POST .build()といったメソッドを連打し  
 　httpClientで.sendすることの理解が必要だった  
 
-10.HttpClientオブジェクト生成 
+10.感情分析
 
 10.収集したコメントの文字列を今度はライブラリを使わずjsonとして
 
