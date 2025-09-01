@@ -25,7 +25,13 @@ Git GitHub
 6.filterやcollect、map、データの流れであるストリームに変換する.stream()など  
   Javaに備えられたStream APIという機能を理解しなければならなかった  
 7.Youtube APIを使う時にGoogle が公式で提供しているクライアントライブラリのGoogle API Client Library for Javaを使ったが  
-  この中に用意されているYoutubeクラスの構造を理解しなければならなかった  
+  この中に用意されているYoutubeクラスの構造を把握しなければならず  
+  「YouTubeクラス」の内部クラスである「LiveChatMessagesクラスのlist()メソッド」を呼び出すと、  
+   LiveChatMessageListResponseオブジェクトが返され、それはitems[] 配列と示され  
+   その0番目に格納されたLiveChatMessageオブジェクトが格納されており  
+   そのLiveChatMessageの中のsnippetオブジェクトの中に、プロパティ(コメント本文や投稿時刻などのメッセージ情報の文字列)が存在する  
+   といったことを理解しなければいけなかった
+   
 8.youtubeコメント収集を乗り越えた先に今度はazure apiの使用で一度心が折れた  
 9.収集したコメントの文字列をjsonとしてHttpClientオブジェクト生成
 
