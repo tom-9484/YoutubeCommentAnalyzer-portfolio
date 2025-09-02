@@ -676,6 +676,7 @@ public Map<LocalDateTime, Double> calculateTenSecondlyAverages() {
                 // long negativeCount = minuteComments.stream().mapToLong(c -> c.sentimentScore < -0.3 ? 1 : 0).sum();
 
                 //その10秒間に投稿された分析済みのコメントの総数をcommentCountという変数に代入
+                //long→64ビットの整数型、intは32ビット
                 long commentCount = intervalComments.size();
                 long positiveCount = intervalComments.stream().mapToLong(c -> c.sentimentScore > 0.3 ? 1 : 0).sum();
                 long negativeCount = intervalComments.stream().mapToLong(c -> c.sentimentScore < -0.3 ? 1 : 0).sum();
